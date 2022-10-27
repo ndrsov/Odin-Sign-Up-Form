@@ -8,6 +8,68 @@
     <title>Odin Sign Up Form</title>
   </head>
   <body>
+    <div class="container">
+      <div class="left-container">
+        <div class="odin-logo">
+          <img src="/odin-lined.png" alt="Odin Logo" />
+          <span class="logo-text">ODIN</span>
+          <span class="credit-photo"
+            >Photo by
+            <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on
+            <a href="https://unsplash.com/">Unsplash</a></span
+          >
+        </div>
+        <div class="left-image"></div>
+      </div>
+      <div class="right-container">
+        <div class="form-container">
+          <p class="message">
+            This is not a real online service! You know you need something like
+            this in your life to help you realize your deepest dreams. <br />
+            You <em>know</em> you want to.
+          </p>
+          <div class="form-panel">
+            <h4>Let's do this!</h4>
+            <form class="form-container">
+              <div class="form-row">
+                <label for="first-name">FIRST NAME</label>
+                <input type="text" id="first-name" required />
+                <label for="last-name">LAST NAME</label>
+                <input type="text" id="last-name" required />
+              </div>
+              <div class="form-row">
+                <label for="email">EMAIL</label>
+                <input type="email" name="email" id="email" required />
+                <label for="phone">PHONE NUMBER</label>
+                <input
+                  type="tel"
+                  name="phone"
+                  id="phone"
+                  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                  required
+                />
+              </div>
+              <div class="form-row">
+                <label for="password">PASSWORD</label>
+                <input type="password" name="password" id="password" />
+                <label for="password-confirmed">CONFIRM PASSWORD </label>
+                <input
+                  type="password"
+                  name="password-confirmed"
+                  id="password-confirmed"
+                />
+              </div>
+              <div class="form-row">
+                <button class="btn-submit">Create Account</button>
+              </div>
+            </form>
+            <p class="tagline">
+              Already have and account? <a href="#">Log in</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="app.js"></script>
   </body>
 </html>
