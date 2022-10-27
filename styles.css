@@ -8,6 +8,29 @@
 
 body {
   font-family: "Roboto", sans-serif;
+}
+
+.container {
+  display: flex;
+  width: auto;
   height: 100vh;
-  overflow: hidden;
+}
+
+.left-container {
+  width: 30%;
+  position: relative;
+}
+
+.odin-logo-sidebar {
+  background-image: url("/halie-west-25xggax4bSA-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
+}
+
+.right-container {
+  background-color: #eee;
+  width: 70%;
 }
