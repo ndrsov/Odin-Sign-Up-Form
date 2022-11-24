@@ -99,7 +99,7 @@ body {
   background-color: #fff;
   width: 99%;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  padding: 40px;
+  padding: 40px 65px;
 }
 
 .form-panel h4 {
@@ -108,9 +108,24 @@ body {
   margin-bottom: 1em;
 }
 
+.form-row {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 70px;
+}
+
 .form-row label {
   color: #555;
-  font-size: 0.8rem;
+  font-size: 12px;
   font-weight: 800;
   letter-spacing: 1.2px;
+  margin: 5px 0;
+}
+
+.form-row input {
+  border: none;
+  height: 35px;
+  width: 400px;
+  border-radius: 7px;
 }
