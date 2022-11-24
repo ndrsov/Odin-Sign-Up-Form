@@ -101,3 +101,16 @@ body {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   padding: 40px;
 }
+
+.form-panel h4 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 1em;
+}
+
+.form label {
+  color: #555;
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 1.2px;
+}
