@@ -108,7 +108,7 @@ body {
   margin-bottom: 1em;
 }
 
-.form label {
+.form-row label {
   color: #555;
   font-size: 0.8rem;
   font-weight: 800;
