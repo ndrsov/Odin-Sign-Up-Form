@@ -128,4 +128,15 @@ body {
   height: 35px;
   width: 400px;
   border-radius: 7px;
+  border: 1px solid #e5e7eb;
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0.25rem;
+}
+
+.form-row input:focus,
+.form-row input:active {
+  outline: none;
+  border: 1.5px solid #006eff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
