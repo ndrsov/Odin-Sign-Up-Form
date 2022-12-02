@@ -160,3 +160,8 @@ body {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.24);
   margin: 2rem 0;
 }
+
+.btn-submit:active {
+  background-color: #4b5c3c;
+  transform: scale(0.98);
+}
