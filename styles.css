@@ -165,3 +165,11 @@ body {
   background-color: #4b5c3c;
   transform: scale(0.98);
 }
+.tagline {
+  font-size: 20px;
+}
+
+.tagline a {
+  text-decoration: none;
+  color: #596d48;
+}
