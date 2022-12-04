@@ -172,4 +172,5 @@ body {
 .tagline a {
   text-decoration: none;
   color: #596d48;
+  font-weight: bold;
 }
