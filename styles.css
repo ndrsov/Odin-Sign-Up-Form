@@ -134,6 +134,12 @@ body {
   padding: 0.25rem;
 }
 
+#password.error,
+#password-confirmed.error {
+  outline: none;
+  border: 1.5px solid #e00404;
+}
+
 .form-row input:focus,
 .form-row input:active {
   outline: none;
